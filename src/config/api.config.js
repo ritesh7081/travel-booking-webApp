@@ -3,7 +3,7 @@
 
 const API_CONFIG = {
   // Development base URL (dummy URL for development)
-  BASE_URL:  'https://travel-booking-app-backend-e5ph.onrender.com/',
+  BASE_URL:  'https://travel-booking-app-backend-e5ph.onrender.com/api',
   
   
   // API Endpoints
