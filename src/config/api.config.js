@@ -2,8 +2,8 @@
 // Change this base URL to match your backend server
 
 const API_CONFIG = {
-  // Development base URL (dummy URL for development)
-  BASE_URL:  'https://travel-booking-app-backend-e5ph.onrender.com/api',
+  // Base URL: prefers env for deployed backend, falls back to render instance for demo
+  BASE_URL: import.meta.env.VITE_API_URL || 'https://travel-booking-app-backend-e5ph.onrender.com/api',
   
   
   // API Endpoints
